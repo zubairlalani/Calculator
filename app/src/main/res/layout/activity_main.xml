@@ -1,0 +1,190 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentTop="true"
+        android:layout_marginTop="33dp"
+        android:orientation="vertical">
+
+        <TextView
+            android:id="@+id/ID_Output"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:background="@android:drawable/alert_light_frame"
+            android:cursorVisible="false"
+            android:gravity="right"
+            android:textSize="50sp"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintLeft_toLeftOf="parent"
+            app:layout_constraintRight_toRightOf="parent"
+            app:layout_constraintTop_toTopOf="parent" />
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentTop="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="177dp"
+        android:orientation="horizontal">
+
+        <Button
+            android:id="@+id/ID_Button1"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+
+            android:onClick="ClickedOne"
+            android:text="1" />
+
+        <Button
+            android:id="@+id/ID_Button2"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+
+            android:onClick="ClickedTwo"
+            android:text="2" />
+
+        <Button
+            android:id="@+id/ID_Button3"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+
+            android:onClick="ClickedThree"
+            android:text="3" />
+
+        <Button
+            android:id="@+id/ID_PlusSign"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+
+            android:onClick="ClickedPlus"
+            android:text="+" />
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerInParent="true"
+        android:orientation="horizontal">
+
+        <Button
+            android:id="@+id/ID_Button4"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:onClick="ClickedFour"
+            android:text="4" />
+
+        <Button
+            android:id="@+id/ID_Button5"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:onClick="ClickedFive"
+            android:text="5" />
+
+        <Button
+            android:id="@+id/ID_Button6"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:onClick="ClickedSix"
+            android:text="6" />
+
+        <Button
+            android:id="@+id/ID_MinusSign"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:onClick="ClickedMinus"
+            android:text="-" />
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginBottom="176dp"
+        android:orientation="horizontal">
+
+        <Button
+            android:id="@+id/ID_Button7"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+
+            android:onClick="ClickedSeven"
+            android:text="7" />
+
+        <Button
+            android:id="@+id/ID_Button8"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+
+            android:onClick="ClickedEight"
+            android:text="8" />
+
+        <Button
+            android:id="@+id/ID_Button9"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+
+            android:onClick="ClickedNine"
+            android:text="9" />
+
+        <Button
+            android:id="@+id/ID_MultiplySign"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+
+            android:onClick="ClickedMultiply"
+            android:text="*" />
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginBottom="121dp"
+        android:orientation="horizontal">
+
+        <Button
+            android:id="@+id/ID_Clear"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+
+            android:onClick="ClickedClear"
+            android:text="C" />
+
+        <Button
+            android:id="@+id/ID_Button0"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+
+            android:onClick="ClickedZero"
+            android:text="0" />
+
+        <Button
+            android:id="@+id/ID_EqualsSign"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+
+            android:onClick="ClickedEquals"
+            android:text="=" />
+
+        <Button
+            android:id="@+id/ID_DivisionSign"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+
+            android:onClick="ClickedDivide"
+            android:text="/" />
+    </LinearLayout>
+
+</RelativeLayout>
